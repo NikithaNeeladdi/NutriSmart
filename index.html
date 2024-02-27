@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Recipe Generator</h1>
+        <p>Generate recipes based on the ingredients you have!</p>
+    </header>
+    <main>
+        <section>
+            <h2>Get Started</h2>
+            <form id="generateForm">
+                <label for="ingredients">Enter ingredients (comma-separated):</label><br>
+                <input type="text" id="ingredients" name="ingredients" required><br><br>
+                <button type="submit">Generate Recipe</button>
+            </form>
+            <div id="recipePrompt"></div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Recipe Generator</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
